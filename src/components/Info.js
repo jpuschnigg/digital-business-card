@@ -1,13 +1,13 @@
-import profile from "../images/profile_picture.jpg"
+import profile from "../images/headshot.jpg"
 
 export default function Info() {
     return (
         <div className="top">
             <div className="profile">
                 <img src={profile} className="pfp" alt="profile-picture"></img>
-                <h1 className="name">Kristin Chauvin</h1>
-                <p className="occupation">Logistics Management</p>
-                <p className="location">Clifton, Arizona</p>
+                <h1 className="name">Jack Puschnigg</h1>
+                <p className="occupation">College Student</p>
+                <p className="location">Ligonier, PA</p>
             </div>
             <form className="contact">
                 <button className="facebook-button" type="submit" formAction="https://www.temporary-mail.net/" formTarget="_blank">
